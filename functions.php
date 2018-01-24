@@ -4,11 +4,14 @@
 function printstore_script_enqueue() {
 
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.4', 'all'); //Inkluderar bootstrap
-    wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/printstoretheme.css', array(), '1.0.0', 'all');
+    wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/printstoretheme.css', array(), '1.0.0', 'all'); //Inkluderar lightbox
+    wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css' );
+
 
     wp_enqueue_script('jquery');
     wp_enqueue_script('customjs', get_template_directory_uri() . '/js/printstoretheme.js', array(), '1.0.0', true);
-    wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.4', true);//Inkluderar bootstrap
+    wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.4', true); //Inkluderar bootstrap
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js' ); //Inkluderar lightbox
 
 }
 
@@ -82,19 +85,16 @@ function wcs_woo_remove_reviews_tab($tabs)
     return $tabs;
 }
 
-function woocommerce_template_product_description() {
-    wc_get_template( 'single-product/tabs/description.php' );
+add_filter('woocommerce_billing_fields', 'custom_woocommerce_billing_fields');
+
+function custom_woocommerce_billing_fields( $fields ) {
+
+    $fields['billing_address_1']['class'] = array( 'form-row-wide' );
+
+    $fields['billing_address_2']['class'] = array( 'form-row-wide' );
+
+    return $fields;
 }
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_product_description', 20 );
 
-add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
-
-function woo_remove_product_tabs( $tabs ) {
-
-    unset( $tabs['reviews'] );            // Remove the reviews tab
-    unset( $tabs['additional_information'] );      // Remove the additional information tab
-
-    return $tabs;
-}
 
 

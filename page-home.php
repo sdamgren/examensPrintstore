@@ -52,7 +52,15 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_url'); ?>/img/livingroom.jpg">
             </div>
         </div>
-    </div><br>
+
+
+    <p class="want-a-wall">Want a wall like this?</p>
+    <p class="want-a-wall-p">Go to our shop and buy your prints today!</p>
+
+    </div>
+
+    <input class="button-go-to-shop" type="button" onclick="location.href='http://localhost/printstore/localwp.dev/shop/'" value="Go to shop" />
+
 
 
     <?php get_sidebar(); ?> <!-- Hämtar sidebar -->

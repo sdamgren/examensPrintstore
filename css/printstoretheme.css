@@ -1,5 +1,6 @@
 /*
 color: #967979
+color-button: #ebe9eb
 */
 
 /*
@@ -48,6 +49,35 @@ body {
 .jumbotron p {
     color: #967979;
 }
+
+.want-a-wall {
+    font-family: 'Rock Salt', cursive;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.want-a-wall-p {
+    font-size: 20px;
+    padding-bottom:30px;
+    color: #967979;
+    padding-top: 10px;
+}
+
+.button-go-to-shop {
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: #ebe9eb;
+    width: 255px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.button-go-to-shop:hover {
+    background: #dad8da;
+}
+
 
 /*
 MENU
@@ -119,6 +149,30 @@ SINGLE PAGE PRODUCT
     width: 70%;
 }
 
+.woocommerce div.product form.cart .button{
+    background-color: #967979;
+    height: 35px;
+    color: #ebe9eb;
+}
+
+.woocommerce div.product form.cart .button:hover {
+    background-color: #967979;
+    opacity: 0.8;
+
+}
+
+
+/*.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #967979;
+    padding-right: 20px;
+    
+}   */
+
+.woocommerce .quantity .qty {
+    padding: 5px;
+}
+
+
 /*
 RELATERADE PRODUKTER
 */
@@ -147,12 +201,14 @@ RELATERADE PRODUKTER
 
 }
 
+
 /*
 FOOTER
 */
 
 .container-footer {
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .h4, h4 {
@@ -194,5 +250,111 @@ a:active {
 #meny li {
     list-style-type: none;
 }
+
+
+/*
+GALLERY
+*/
+
+.gallery {
+    margin: 10px 65px;
+    position: relative;
+}
+
+.gallery img {
+    width: 240px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(0.9);
+}
+
+.gallery-h2 {
+    font-family: 'Rock Salt', cursive;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.gallery-p {
+    color: #967979;
+    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+/*
+MY ACCOUNT
+*/
+
+.woocommerce-account .woocommerce-MyAccount-navigation li{
+    display: block;
+    padding: 10px 0 6px 5px;
+    border-bottom: 1px solid #dfa8fb;
+}
+
+.woocommerce-cart-form {
+    
+}
+
+.woocommerce-cart .hentry, .woocommerce-checkout .hentry {
+    width: 100%;
+}
+
+.woocommerce-Price-currencySymbol {
+    letter-spacing: 2px;
+}
+
+/*
+CHECKOUT
+*/
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    background-color: #967979;
+    height: 35px;
+    color: #ebe9eb;
+}
+
+.woocommerce-info {
+    border-top-color: #967979;
+}
+
+
+
+/*
+SIDEBAR
+
+
+.printstore-sidebar {
+    position: fixed;
+    color: white;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #967979;
+    height: 100vh;
+    width: 100%;
+    max-width: 280px;
+
+.printstore-sidebar-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.sidebar-close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+*/
+
+
 
 
