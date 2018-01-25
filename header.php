@@ -30,7 +30,6 @@
 
     </div> <!-- Stänger printstore-sidebar -->
 
-
 <div class="container">
 
     <div class="row">
@@ -80,4 +79,5 @@
 
     </div>
 
+    <?php get_sidebar(); ?>
 

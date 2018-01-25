@@ -96,5 +96,12 @@ function custom_woocommerce_billing_fields( $fields ) {
     return $fields;
 }
 
+add_theme_support( 'wc-product-gallery-lightbox' ); //Lägger till lightbox till single page product.
+
+add_theme_support( 'wc-product-gallery-zoom' ); //Lägger till zoom till single page product.
+
+
+
+
 
 

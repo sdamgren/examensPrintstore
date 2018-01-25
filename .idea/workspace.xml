@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c8ab5a-c5f3-4ef4-b2d7-987bebcf9c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo1-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo2-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo3-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo4-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo5-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo6-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo7-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo8-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo9-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inspo9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/bebrave.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/blad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/flamingo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/hakuna.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/lipstick.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/pineapple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/trees.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/uggla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/yes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lightbox.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examensarbete" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/printstoretheme" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/wall.jpg" afterPath="$PROJECT_DIR$/img/wall.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/printstoretheme.css" afterPath="$PROJECT_DIR$/css/printstoretheme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-home.php" afterPath="$PROJECT_DIR$/page-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +16,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="printstoretheme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/printstoretheme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -103,8 +105,8 @@
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/css/printstoretheme.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -115,10 +117,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="422" />
     <option name="y" value="23" />
-    <option name="width" value="1168" />
+    <option name="width" value="754" />
     <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -139,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +162,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,16 +206,19 @@
       <workItem from="1516747117978" duration="711000" />
       <workItem from="1516788435180" duration="13434000" />
       <workItem from="1516828270971" duration="19000" />
+      <workItem from="1516828465775" duration="86000" />
+      <workItem from="1516881120417" duration="4870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112068000" />
+    <option name="totallyTimeSpent" value="117024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="23" width="1168" height="699" extended-state="0" />
+    <frame x="422" y="23" width="754" height="699" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1731794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16011237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -231,25 +236,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16112085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -564,14 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/searchform.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -580,26 +558,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        <state relative-caret-position="-13">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/printstoretheme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="316" column="1" lean-forward="false" selection-start-line="316" selection-start-column="1" selection-end-line="316" selection-end-column="1" />
+        <state relative-caret-position="278">
+          <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
