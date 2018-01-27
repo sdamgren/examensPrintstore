@@ -166,6 +166,16 @@ SINGLE PAGE PRODUCT
     background: #dad8da;
 }
 
+.woocommerce div.product .woocommerce-tabs ul.tabs li { /* More information */
+    border: none;
+    background-color: none;
+    font-size: 20px;
+    position: initial;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    padding-left: 25px;
+}
 
 
 /*

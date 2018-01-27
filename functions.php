@@ -100,6 +100,21 @@ add_theme_support( 'wc-product-gallery-lightbox' ); //Lägger till lightbox till
 
 add_theme_support( 'wc-product-gallery-zoom' ); //Lägger till zoom till single page product.
 
+add_filter( 'woocommerce_product_description_heading', '__return_false' ); //Tar bort description heading single page product.
+
+add_filter( 'woocommerce_product_description_tab_title', 'isa_wc_description_tab_link_text', 999, 2 ); //Ändrar description till min egna.
+
+function isa_wc_description_tab_link_text( $text, $tab_key ) {
+
+    return esc_html( 'More information' );
+
+}
+
+function isa_order_received_text( $text, $order ) {
+    return 'Thank you for your order! A receipt has been sent to you via email.';
+}
+add_filter('woocommerce_thankyou_order_received_text', 'isa_order_received_text', 10, 2 ); //Ändrar texten när man lagt en order
+
 
 
 
