@@ -10,26 +10,6 @@
 
 <body <?php body_class(); ?>>
 
-
-    <!-- Min sidebar
-    <div class="printstore-sidebar">
-
-        <div class="printstore-sidebar-container">
-
-            <a class="js-close-sidebar sidebar-close">
-                <span class="glyphicon glyphicon-remove">
-            </a>
-
-        <div class="sidebar-scroll">
-
-            <?php //get_sidebar(); ?>
-
-        </div> <!-- Stänger sidebar-scroll
-
-    </div> Stänger printstore-sidebar-container
-
-    </div> <!-- Stänger printstore-sidebar -->
-
 <div class="container">
 
     <div class="row">

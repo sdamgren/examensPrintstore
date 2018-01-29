@@ -115,7 +115,21 @@ function isa_order_received_text( $text, $order ) {
 }
 add_filter('woocommerce_thankyou_order_received_text', 'isa_order_received_text', 10, 2 ); //Ändrar texten när man lagt en order
 
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' ); //Tar bort company name
 
+function custom_override_checkout_fields( $fields ) {
+    unset($fields['billing']['billing_company']);
+
+    return $fields;
+}
+
+add_filter( 'woocommerce_checkout_fields' , 'alter_woocommerce_checkout_fields' ); //Tar bort other notes
+function alter_woocommerce_checkout_fields( $fields ) {
+    unset($fields['order']['order_comments']);
+    return $fields;
+}
+
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 ); //Tar bort sorting by
 
 
 
