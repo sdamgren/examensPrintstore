@@ -227,13 +227,14 @@ FOOTER
 
 }
 
+/*
 .back-to-top-button {
     background-color: white;
     border-color: #967979;
     font-size: 15px;
     float: right;
 }
-
+*/
 
 a:link {
     color: #000000;
@@ -332,7 +333,10 @@ CHECKOUT
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
     background-color: #967979;
     height: 35px;
-    color: #ebe9eb;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+
 }
 
 .woocommerce-info {
@@ -343,8 +347,27 @@ CHECKOUT
     color: #967979;
 }
 
-.wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
-    background-color: #967979;
+#add_payment_method #payment div.form-row, .woocommerce-cart #payment div.form-row, .woocommerce-checkout #payment div.form-row {
+    background-color: white;
+}
+
+#add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
+    background-color: white;
+}
+
+/*
+CART
+*/
+
+.woocommerce a.button.alt {
+    text-transform: uppercase;
+    color: black;
+    background-color: #ebe9eb;
+    border-radius: 3px;
+}
+
+.woocommerce a.button.alt:hover {
+    background-color: #dad8da;
 }
 
 
@@ -366,3 +389,4 @@ SEARCH
         width: 100%;
     }
 }
+

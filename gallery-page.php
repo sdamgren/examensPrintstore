@@ -59,7 +59,4 @@ get_header(); ?>
 
 </body>
 
-
-<?php get_sidebar(); ?> <!-- Hämtar sidebar -->
-
 <?php get_footer(); ?> <!-- Hämtar sidfot -->

@@ -78,7 +78,7 @@ add_theme_support('woocommerce');
 
 
 
-add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 ); //Tar bort reviews
 function wcs_woo_remove_reviews_tab($tabs)
 {
     unset($tabs['reviews']);
@@ -131,6 +131,23 @@ function alter_woocommerce_checkout_fields( $fields ) {
 
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 ); //Tar bort sorting by
 
+function woocommerce_button_proceed_to_checkout()
+{
+    $checkout_url = WC()->cart->get_checkout_url();
+    ?>
+    <a href="<?php echo $checkout_url; ?>"
+       class="checkout-button button alt wc-forward"><?php _e('Go to checkout', 'woocommerce'); ?></a>
+    <?php //Ändrar texten på knappen i cart.
+}
 
-
-
+function my_hide_shipping_when_free_is_available( $rates ) {
+    $free = array();
+    foreach ( $rates as $rate_id => $rate ) {
+        if ( 'free_shipping' === $rate->method_id ) {
+            $free[ $rate_id ] = $rate;
+            break;
+        }
+    }
+    return ! empty( $free ) ? $free : $rates;
+}
+add_filter( 'woocommerce_package_rates', 'my_hide_shipping_when_free_is_available', 100 );

@@ -62,7 +62,4 @@ get_header(); ?>
     <input class="button-go-to-shop" type="button" onclick="location.href='http://localhost/printstore/localwp.dev/shop/'" value="Go to shop" />
 
 
-
-    <?php get_sidebar(); ?> <!-- Hämtar sidebar -->
-
 <?php get_footer(); ?> <!-- Hämtar sidfot -->
