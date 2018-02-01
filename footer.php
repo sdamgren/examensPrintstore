@@ -17,8 +17,8 @@
             </div>
             <div class="col-sm-4">
                 <h5 class="footer-h5">Follow us</h5>
-                <i class="fa fa-facebook-official" style="font-size:30px"></i>
-                    <i class="fa fa-instagram" style="font-size:30px"></i>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" style="font-size:30px"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:30px"></i></a>
 
             </div>
         </div>

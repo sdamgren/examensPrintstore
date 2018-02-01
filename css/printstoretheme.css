@@ -166,7 +166,7 @@ SINGLE PAGE PRODUCT
     background: #dad8da;
 }
 
-.woocommerce div.product .woocommerce-tabs ul.tabs li { /* More information */
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
     border: none;
     background-color: none;
     font-size: 20px;
@@ -227,15 +227,6 @@ FOOTER
 
 }
 
-/*
-.back-to-top-button {
-    background-color: white;
-    border-color: #967979;
-    font-size: 15px;
-    float: right;
-}
-*/
-
 a:link {
     color: #000000;
     text-decoration: none;
@@ -285,26 +276,14 @@ GALLERY
 
 .gallery-p {
     color: #967979;
-    font-size: 15px;
     font-size: 20px;
     text-align: center;
     padding: 40px;
 }
-/*
-@media only screen and (max-width: 766px) {
-    .gallery img {
-        max-width:100%;
-        height:auto;
-        width: auto;
-        margin: auto;
-        top: 0; left: 0; bottom: 0; right: 0;
-    }
-}*/
 
 @media only screen and (max-width: 1000px) {
     .gallery img {
         width: 100px;
-
     }
 }
 
@@ -323,9 +302,7 @@ MY ACCOUNT
     width: 100%;
 }
 
-.woocommerce-Price-currencySymbol {
-    letter-spacing: 2px;
-}
+
 
 /*
 CHECKOUT
@@ -353,6 +330,10 @@ CHECKOUT
 
 #add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
     background-color: white;
+}
+
+.woocommerce form .form-row .required {
+    color: black;
 }
 
 /*
@@ -390,3 +371,6 @@ SEARCH
     }
 }
 
+.search-h1 {
+    padding-left: 15px;
+}

@@ -3,7 +3,6 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland|Over+the+Rainbow|Rock+Salt" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
 
     <?php wp_head(); ?>
 
@@ -58,5 +57,6 @@ get_header(); ?>
     </div>
 
 </body>
+
 
 <?php get_footer(); ?> <!-- Hämtar sidfot -->

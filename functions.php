@@ -17,7 +17,6 @@ function printstore_script_enqueue() {
 
 add_action('wp_enqueue_scripts', 'printstore_script_enqueue');
 
-
 //Lägger till meny
 
 function printstore_theme_setup() {
@@ -98,7 +97,7 @@ function custom_woocommerce_billing_fields( $fields ) {
 
 add_theme_support( 'wc-product-gallery-lightbox' ); //Lägger till lightbox till single page product.
 
-add_theme_support( 'wc-product-gallery-zoom' ); //Lägger till zoom till single page product.
+add_theme_support( 'wc-product-gallery-zoom' ); //Lägger till zoom-knappen till single page product.
 
 add_filter( 'woocommerce_product_description_heading', '__return_false' ); //Tar bort description heading single page product.
 
@@ -140,14 +139,4 @@ function woocommerce_button_proceed_to_checkout()
     <?php //Ändrar texten på knappen i cart.
 }
 
-function my_hide_shipping_when_free_is_available( $rates ) {
-    $free = array();
-    foreach ( $rates as $rate_id => $rate ) {
-        if ( 'free_shipping' === $rate->method_id ) {
-            $free[ $rate_id ] = $rate;
-            break;
-        }
-    }
-    return ! empty( $free ) ? $free : $rates;
-}
-add_filter( 'woocommerce_package_rates', 'my_hide_shipping_when_free_is_available', 100 );
+add_filter( 'woocommerce_cart_needs_shipping_address', '__return_false'); //Tar bort ship to different address
