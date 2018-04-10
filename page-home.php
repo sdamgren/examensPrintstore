@@ -15,8 +15,6 @@ Template Name: Home Page
 
 get_header(); ?>
 
-
-
 <main role="main">
 
     <section class="jumbotron text-center">
@@ -38,18 +36,18 @@ get_header(); ?>
     <div class="row text-center slideanim">
         <div class="col-sm-4">
             <div class="thumbnail">
-                <img src="<?php bloginfo('template_url'); ?>/img/bedroom.jpg">
+            <a href="<?php echo get_page_link(4); ?>"><img src="<?php bloginfo('template_url'); ?>/img/bedroom.jpg"></a>
             </div>
         </div>
 
         <div class="col-sm-4">
             <div class="thumbnail">
-                <img src="<?php bloginfo('template_url'); ?>/img/wall.jpg">
+            <a href="<?php echo get_page_link(4); ?>"><img src="<?php bloginfo('template_url'); ?>/img/wall.jpg"></a>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="thumbnail">
-                <img src="<?php bloginfo('template_url'); ?>/img/livingroom.jpg">
+               <a href="<?php echo get_page_link(4); ?>"> <img src="<?php bloginfo('template_url'); ?>/img/livingroom.jpg"></a>
             </div>
         </div>
 
@@ -59,7 +57,7 @@ get_header(); ?>
 
     </div>
 
-    <input class="button-go-to-shop" type="button" onclick="location.href='http://localhost/printstore/localwp.dev/shop/'" value="Go to shop" />
+    <input class="button-go-to-shop" type="button" onclick="location.href='<?php echo get_page_link(4); ?>'" value="Go to shop" />
 
 
 <?php get_footer(); ?> <!-- Hämtar sidfot -->

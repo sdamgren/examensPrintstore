@@ -73,7 +73,7 @@ function my_theme_wrapper_end() {
 }
 
 add_theme_support('woocommerce');
-//Slutet av Woocommerec
+//Slutet av Woocommerce
 
 
 

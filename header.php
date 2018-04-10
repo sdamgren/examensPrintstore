@@ -9,7 +9,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<a href="<?php echo get_page_link(81); ?>">
 <div class="container">
 
     <div class="row">
@@ -24,7 +24,7 @@
                         <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
                     </div><!-- stänger table-cell -->
                 </div><!-- stänger header-content -->
-
+</a>
                 <div class="nav-container">
 
                     <nav class="navbar navbar-default navbar-printstoretheme">
@@ -37,7 +37,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="http://localhost/printstore/localwp.dev/">printStore</a>
+                                <a class="navbar-brand" href="<?php echo get_page_link(81); ?>">printStore</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <?php
@@ -59,6 +59,4 @@
 
     </div>
 
-    <?php get_sidebar(); ?> <!-- Hämtar search-->
-
-
+<?php get_sidebar(); ?> <!-- Hämtar search-->

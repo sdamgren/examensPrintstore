@@ -71,7 +71,6 @@ body {
     width: 255px;
     border: none;
     border-radius: 3px;
-
 }
 
 .button-go-to-shop:hover {
@@ -127,6 +126,19 @@ MENU
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
+}
+
+/*
+FIRST PAGE
+*/
+
+.thumbnail {
+    border: none;
+}
+
+.thumbnail img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 
 
@@ -203,7 +215,6 @@ RELATERADE PRODUKTER
     justify-content: center;
     text-transform: uppercase;
     padding: 12px;
-
 }
 
 
@@ -211,20 +222,9 @@ RELATERADE PRODUKTER
 FOOTER
 */
 
-.container-footer {
+.container .text-center {
     padding-bottom: 50px;
     padding-top: 20px;
-}
-
-.h4, h4 {
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.h5, h5 {
-    text-transform: uppercase;
-    color: #967979;
-
 }
 
 a:link {
@@ -246,6 +246,32 @@ a:active {
 
 #meny li {
     list-style-type: none;
+}
+
+.line {
+    width: 841px;
+}
+
+.footer-h4 {
+    padding-top: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.footer-h5 {
+    text-transform: uppercase;
+    color: #967979;
+    padding-right: 50px;
+}
+
+.footer-text {
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.fa-instagram:before {
+    padding-right: 50px;
 }
 
 
@@ -283,7 +309,7 @@ GALLERY
 
 @media only screen and (max-width: 1000px) {
     .gallery img {
-        width: 100px;
+        width: 49%;
     }
 }
 
@@ -308,12 +334,12 @@ MY ACCOUNT
 CHECKOUT
 */
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
-    background-color: #967979;
-    height: 35px;
+    background-color: #ebe9eb;
+    height: 40px;
+    width: 200px;
     text-transform: uppercase;
-    color: black;
-    font-size: 12px;
-
+    color: #515151;
+    font-size: 16px;
 }
 
 .woocommerce-info {
@@ -324,8 +350,9 @@ CHECKOUT
     color: #967979;
 }
 
-#add_payment_method #payment div.form-row, .woocommerce-cart #payment div.form-row, .woocommerce-checkout #payment div.form-row {
+.woocommerce-checkout #payment div.form-row {
     background-color: white;
+    padding-bottom: 50px;
 }
 
 #add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
@@ -342,7 +369,7 @@ CART
 
 .woocommerce a.button.alt {
     text-transform: uppercase;
-    color: black;
+    color: #515151;
     background-color: #ebe9eb;
     border-radius: 3px;
 }
@@ -369,8 +396,20 @@ SEARCH
     .form-control{
         width: 100%;
     }
+    .footer-h4, .footer-h5, .footer-text, .fa-instagram:before {
+        padding-right: 0px;
+    }
+}
+
+.entry-title {
+    padding-left: 12px;
+    font-size: 40px;
+}
+
+.search-result {
+    padding-left: 12px;
 }
 
 .search-h1 {
-    padding-left: 15px;
+    padding-left: 12px;
 }
